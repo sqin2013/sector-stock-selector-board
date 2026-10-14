@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sector charts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap">
+  <link rel="stylesheet" href="../static/board.css">
+</head>
+<body>
+  <main class="wrap">
+    
+      
+      
+      <header>
+        <p class="kicker"><a href="../index.html">Daily board</a> · Sector charts</p>
+        <h1>Materials</h1>
+        <p class="lede">The line is the holdings-weighted index of the stocks currently in this GICS sector, built from Yahoo adjusted closes and rebased to 100 at the start of the price history. An early sector has to clear every check on the same session.</p>
+        <p class="note">SPY holdings 12 Oct 2026, prices through 12 Oct 2026, GICS map unofficial-wikipedia-sp500-2026-10-13. Weights are the current file, drifted by price away from 12 Oct 2026. The plots show the last 63 trading sessions.</p>
+      </header>
+
+      <nav class="pills" aria-label="ETF">
+        
+          <a href="qqq-materials.html" class="">QQQ</a>
+        
+          <a href="spy-materials.html" class="on">SPY</a>
+        
+      </nav>
+
+      <section class="card">
+        <h2>SPY on 12 Oct 2026</h2>
+        <div class="scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Sector</th>
+                <th>Stage</th>
+                <th class="num">Issuers</th>
+                <th class="num">50-day cross</th>
+                <th class="num">Failed checks</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td><a href="spy-energy.html">Energy</a></td>
+                  <td><span class="badge Late">Late</span></td>
+                  <td class="num">21</td>
+                  <td class="num">7 sessions</td>
+                  <td class="num">4</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="spy-materials.html">Materials</a></td>
+                  <td><span class="badge Broken">Broken</span></td>
+                  <td class="num">24</td>
+                  <td class="num">Below 50-day</td>
+                  <td class="num">9</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="spy-industrials.html">Industrials</a></td>
+                  <td><span class="badge Broken">Broken</span></td>
+                  <td class="num">83</td>
+                  <td class="num">Below 50-day</td>
+                  <td class="num">8</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="spy-consumer-discretionary.html">Consumer Discretionary</a></td>
+                  <td><span class="badge Broken">Broken</span></td>
+                  <td class="num">47</td>
+                  <td class="num">Below 50-day</td>
+                  <td class="num">9</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="spy-consumer-staples.html">Consumer Staples</a></td>
+                  <td><span class="badge Late">Late</span></td>
+                  <td class="num">32</td>
+                  <td class="num">2 sessions</td>
+                  <td class="num">4</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="spy-health-care.html">Health Care</a></td>
+                  <td><span class="badge Late">Late</span></td>
+                  <td class="num">59</td>
+                  <td class="num">1 sessions</td>
+                  <td class="num">6</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="spy-financials.html">Financials</a></td>
+                  <td><span class="badge Broken">Broken</span></td>
+                  <td class="num">75</td>
+                  <td class="num">Below 50-day</td>
+                  <td class="num">11</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="spy-information-technology.html">Information Technology</a></td>
+                  <td><span class="badge Late">Late</span></td>
+                  <td class="num">75</td>
+                  <td class="num">33 sessions</td>
+                  <td class="num">5</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="spy-communication-services.html">Communication Services</a></td>
+                  <td><span class="badge Late">Late</span></td>
+                  <td class="num">19</td>
+                  <td class="num">21 sessions</td>
+                  <td class="num">9</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="spy-utilities.html">Utilities</a></td>
+                  <td><span class="badge Broken">Broken</span></td>
+                  <td class="num">31</td>
+                  <td class="num">Below 50-day</td>
+                  <td class="num">5</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="spy-real-estate.html">Real Estate</a></td>
+                  <td><span class="badge Broken">Broken</span></td>
+                  <td class="num">30</td>
+                  <td class="num">Below 50-day</td>
+                  <td class="num">10</td>
+                </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <nav class="pills" aria-label="Sector">
+        
+          <a href="spy-energy.html" class="">Energy</a>
+        
+          <a href="spy-materials.html" class="on">Materials</a>
+        
+          <a href="spy-industrials.html" class="">Industrials</a>
+        
+          <a href="spy-consumer-discretionary.html" class="">Consumer Discretionary</a>
+        
+          <a href="spy-consumer-staples.html" class="">Consumer Staples</a>
+        
+          <a href="spy-health-care.html" class="">Health Care</a>
+        
+          <a href="spy-financials.html" class="">Financials</a>
+        
+          <a href="spy-information-technology.html" class="">Information Technology</a>
+        
+          <a href="spy-communication-services.html" class="">Communication Services</a>
+        
+          <a href="spy-utilities.html" class="">Utilities</a>
+        
+          <a href="spy-real-estate.html" class="">Real Estate</a>
+        
+      </nav>
+
+      <section class="card">
+        <h2>Materials in SPY</h2>
+        <p class="note">24 issuers, 1.6% of SPY. Stage Broken for 24 sessions.</p>
+        <dl class="facts">
+          <div><dt>Stage</dt><dd><span class="badge Broken">Broken</span></dd></div>
+          <div><dt>50-day cross</dt><dd>Below the average</dd></div>
+          <div><dt>Failed checks</dt><dd>9 of 16</dd></div>
+          <div><dt>Parent weight</dt><dd>1.6%</dd></div>
+        </dl>
+      </section>
+
+      <div class="charts">
+        
+          <figure class="card plot wide">
+            <h2>Index level versus the 50-day and 200-day averages</h2>
+            <svg viewBox="0 0 760 280" role="img" font-family="IBM Plex Sans, Segoe UI, sans-serif"><title>Materials index, 50-day average, and 200-day average</title><line x1="58" y1="244.0" x2="744" y2="244.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="248.0" text-anchor="end" fill="#5c564c" font-size="11">135</text><line x1="58" y1="168.7" x2="744" y2="168.7" stroke="#e4dccb" stroke-width="1"/><text x="50" y="172.7" text-anchor="end" fill="#5c564c" font-size="11">141</text><line x1="58" y1="93.3" x2="744" y2="93.3" stroke="#e4dccb" stroke-width="1"/><text x="50" y="97.3" text-anchor="end" fill="#5c564c" font-size="11">147</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="22.0" text-anchor="end" fill="#5c564c" font-size="11">153</text><polyline fill="none" stroke="#14532d" stroke-width="2" points="58.0,164.8 69.1,158.1 80.1,175.6 91.2,193.0 102.3,188.2 113.3,162.8 124.4,181.5 135.5,154.8 146.5,148.4 157.6,118.2 168.6,140.9 179.7,135.6 190.8,176.3 201.8,150.2 212.9,115.2 224.0,86.1 235.0,99.5 246.1,70.2 257.2,56.3 268.2,57.7 279.3,80.6 290.4,95.1 301.4,85.4 312.5,94.6 323.5,114.5 334.6,83.3 345.7,86.1 356.7,45.5 367.8,40.4 378.9,33.6 389.9,33.8 401.0,47.5 412.1,55.1 423.1,72.3 434.2,102.3 445.3,74.9 456.3,81.1 467.4,87.9 478.5,103.5 489.5,118.7 500.6,146.7 511.6,136.5 522.7,154.6 533.8,148.1 544.8,159.2 555.9,148.2 567.0,167.7 578.0,169.8 589.1,135.7 600.2,148.2 611.2,166.2 622.3,159.7 633.4,172.7 644.4,183.0 655.5,197.7 666.5,208.8 677.6,188.7 688.7,173.3 699.7,161.8 710.8,189.1 721.9,181.0 732.9,169.6 744.0,167.5"/><polyline fill="none" stroke="#92400e" stroke-width="2" points="58.0,143.6 69.1,143.3 80.1,143.9 91.2,145.6 102.3,146.6 113.3,147.2 124.4,148.7 135.5,149.6 146.5,150.3 157.6,150.1 168.6,149.4 179.7,148.6 190.8,147.8 201.8,146.9 212.9,145.7 224.0,143.9 235.0,143.0 246.1,141.5 257.2,139.8 268.2,138.0 279.3,136.5 290.4,135.7 301.4,134.8 312.5,134.2 323.5,133.2 334.6,131.0 345.7,129.6 356.7,126.5 367.8,124.5 378.9,123.0 389.9,121.9 401.0,121.2 412.1,120.1 423.1,119.2 434.2,118.9 445.3,117.4 456.3,116.2 467.4,115.6 478.5,115.2 489.5,114.4 500.6,114.3 511.6,114.2 522.7,115.2 533.8,115.9 544.8,116.5 555.9,116.0 567.0,116.0 578.0,116.4 589.1,115.9 600.2,115.7 611.2,115.7 622.3,115.7 633.4,115.7 644.4,115.5 655.5,115.7 666.5,116.6 677.6,116.7 688.7,117.1 699.7,117.4 710.8,118.8 721.9,119.6 732.9,120.3 744.0,120.1"/><polyline fill="none" stroke="#5c564c" stroke-width="2" points="58.0,228.4 69.1,227.4 80.1,226.4 91.2,225.6 102.3,224.8 113.3,223.9 124.4,223.1 135.5,222.1 146.5,221.1 157.6,220.0 168.6,218.9 179.7,217.6 190.8,216.7 201.8,215.6 212.9,214.4 224.0,213.0 235.0,211.6 246.1,210.2 257.2,208.6 268.2,207.0 279.3,205.6 290.4,204.3 301.4,202.9 312.5,201.5 323.5,200.1 334.6,198.4 345.7,196.7 356.7,194.8 367.8,192.7 378.9,190.7 389.9,188.6 401.0,186.7 412.1,184.9 423.1,183.2 434.2,181.8 445.3,180.2 456.3,178.5 467.4,176.7 478.5,175.0 489.5,173.4 500.6,171.8 511.6,170.4 522.7,169.0 533.8,167.8 544.8,166.6 555.9,165.5 567.0,164.5 578.0,163.4 589.1,162.2 600.2,161.0 611.2,159.9 622.3,158.6 633.4,157.4 644.4,156.4 655.5,155.6 666.5,154.9 677.6,154.1 688.7,153.2 699.7,152.3 710.8,151.5 721.9,150.7 732.9,149.9 744.0,149.2"/><text x="58.0" y="268" text-anchor="start" fill="#5c564c" font-size="11">07-15</text><text x="401.0" y="268" text-anchor="middle" fill="#5c564c" font-size="11">08-27</text><text x="744.0" y="268" text-anchor="end" fill="#5c564c" font-size="11">10-12</text><text x="58" y="278" fill="#5c564c" font-size="11">Index points</text></svg>
+            <figcaption>
+              <p class="legend">
+                
+                  <span><i style="background: #14532d"></i>Sector index</span>
+                
+                  <span><i style="background: #92400e"></i>50-day average</span>
+                
+                  <span><i style="background: #5c564c"></i>200-day average</span>
+                
+              </p>
+              <p class="note">Y-axis: index points, rebased to 100 at the first session of the full history. X-axis: trading session in 2026, 07-15 to 10-12. An early reading needs the index above the 50-day, that cross 3 to 15 sessions old, and the index still under the 200-day or above it for at most 20 sessions.</p>
+            </figcaption>
+          </figure>
+        
+          <figure class="card plot ">
+            <h2>Breadth, share of issuers above their 50-day</h2>
+            <svg viewBox="0 0 760 280" role="img" font-family="IBM Plex Sans, Segoe UI, sans-serif"><title>Materials breadth</title><line x1="58" y1="244.0" x2="744" y2="244.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="248.0" text-anchor="end" fill="#5c564c" font-size="11">0</text><line x1="58" y1="168.7" x2="744" y2="168.7" stroke="#e4dccb" stroke-width="1"/><text x="50" y="172.7" text-anchor="end" fill="#5c564c" font-size="11">33.3</text><line x1="58" y1="93.3" x2="744" y2="93.3" stroke="#e4dccb" stroke-width="1"/><text x="50" y="97.3" text-anchor="end" fill="#5c564c" font-size="11">66.7</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="22.0" text-anchor="end" fill="#5c564c" font-size="11">100</text><line x1="58" y1="153.6" x2="744" y2="153.6" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="149.6" text-anchor="end" fill="#9f1239" font-size="11">40% floor</text><line x1="58" y1="85.8" x2="744" y2="85.8" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="81.8" text-anchor="end" fill="#9f1239" font-size="11">70% cap</text><polyline fill="none" stroke="#14532d" stroke-width="2" points="58.0,121.6 69.1,102.8 80.1,112.2 91.2,131.0 102.3,159.2 113.3,121.6 124.4,159.2 135.5,121.6 146.5,102.8 157.6,83.9 168.6,112.2 179.7,102.8 190.8,112.2 201.8,112.2 212.9,83.9 224.0,83.9 235.0,74.5 246.1,93.3 257.2,83.9 268.2,74.5 279.3,83.9 290.4,93.3 301.4,74.5 312.5,83.9 323.5,83.9 334.6,74.5 345.7,83.9 356.7,83.9 367.8,83.9 378.9,74.5 389.9,74.5 401.0,74.5 412.1,83.9 423.1,102.8 434.2,112.2 445.3,102.8 456.3,102.8 467.4,131.0 478.5,159.2 489.5,168.7 500.6,178.1 511.6,178.1 522.7,168.7 533.8,168.7 544.8,159.2 555.9,159.2 567.0,196.9 578.0,206.3 589.1,187.5 600.2,187.5 611.2,206.3 622.3,206.3 633.4,206.3 644.4,206.3 655.5,234.6 666.5,244.0 677.6,234.6 688.7,225.2 699.7,215.8 710.8,215.8 721.9,215.8 732.9,206.3 744.0,206.3"/><polyline fill="none" stroke="#5c564c" stroke-width="2" points="58.0,102.8 69.1,102.8 80.1,93.3 91.2,93.3 102.3,131.0 113.3,121.6 124.4,121.6 135.5,112.2 146.5,112.2 157.6,112.2 168.6,121.6 179.7,131.0 190.8,112.2 201.8,121.6 212.9,121.6 224.0,121.6 235.0,102.8 246.1,112.2 257.2,131.0 268.2,159.2 279.3,121.6 290.4,159.2 301.4,121.6 312.5,102.8 323.5,83.9 334.6,112.2 345.7,102.8 356.7,112.2 367.8,112.2 378.9,83.9 389.9,83.9 401.0,74.5 412.1,93.3 423.1,83.9 434.2,74.5 445.3,83.9 456.3,93.3 467.4,74.5 478.5,83.9 489.5,83.9 500.6,74.5 511.6,83.9 522.7,83.9 533.8,83.9 544.8,74.5 555.9,74.5 567.0,74.5 578.0,83.9 589.1,102.8 600.2,112.2 611.2,102.8 622.3,102.8 633.4,131.0 644.4,159.2 655.5,168.7 666.5,178.1 677.6,178.1 688.7,168.7 699.7,168.7 710.8,159.2 721.9,159.2 732.9,196.9 744.0,206.3"/><text x="58.0" y="268" text-anchor="start" fill="#5c564c" font-size="11">07-15</text><text x="401.0" y="268" text-anchor="middle" fill="#5c564c" font-size="11">08-27</text><text x="744.0" y="268" text-anchor="end" fill="#5c564c" font-size="11">10-12</text><text x="58" y="278" fill="#5c564c" font-size="11">Percent of issuers</text></svg>
+            <figcaption>
+              <p class="legend">
+                
+                  <span><i style="background: #14532d"></i>Breadth</span>
+                
+                  <span><i style="background: #5c564c"></i>Breadth 15 sessions earlier</span>
+                
+              </p>
+              <p class="note">Y-axis: percent of issuers with a price above their own 50-day average. Early breadth sits between 40% and 70% and is at least 15 points above the lagged line.</p>
+            </figcaption>
+          </figure>
+        
+          <figure class="card plot ">
+            <h2>Drawdown from the 252-session high</h2>
+            <svg viewBox="0 0 760 280" role="img" font-family="IBM Plex Sans, Segoe UI, sans-serif"><title>Materials drawdown</title><line x1="58" y1="244.0" x2="744" y2="244.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="248.0" text-anchor="end" fill="#5c564c" font-size="11">0</text><line x1="58" y1="168.7" x2="744" y2="168.7" stroke="#e4dccb" stroke-width="1"/><text x="50" y="172.7" text-anchor="end" fill="#5c564c" font-size="11">16.7</text><line x1="58" y1="93.3" x2="744" y2="93.3" stroke="#e4dccb" stroke-width="1"/><text x="50" y="97.3" text-anchor="end" fill="#5c564c" font-size="11">33.3</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="22.0" text-anchor="end" fill="#5c564c" font-size="11">50</text><line x1="58" y1="207.8" x2="744" y2="207.8" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="203.8" text-anchor="end" fill="#9f1239" font-size="11">8% floor</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="14.0" text-anchor="end" fill="#9f1239" font-size="11">50% cap</text><polyline fill="none" stroke="#14532d" stroke-width="2" points="58.0,216.4 69.1,218.0 80.1,213.8 91.2,209.7 102.3,210.8 113.3,216.9 124.4,212.4 135.5,218.8 146.5,220.3 157.6,227.5 168.6,222.1 179.7,223.4 190.8,213.7 201.8,219.9 212.9,228.2 224.0,235.1 235.0,232.0 246.1,238.9 257.2,242.2 268.2,241.9 279.3,236.4 290.4,233.0 301.4,235.3 312.5,233.1 323.5,228.4 334.6,235.8 345.7,235.1 356.7,244.0 367.8,244.0 378.9,244.0 389.9,244.0 401.0,240.7 412.1,238.9 423.1,234.9 434.2,227.8 445.3,234.2 456.3,232.8 467.4,231.2 478.5,227.5 489.5,223.9 500.6,217.3 511.6,219.7 522.7,215.4 533.8,217.0 544.8,214.3 555.9,216.9 567.0,212.3 578.0,211.8 589.1,219.9 600.2,217.0 611.2,212.7 622.3,214.2 633.4,211.2 644.4,208.7 655.5,205.3 666.5,202.6 677.6,207.4 688.7,211.0 699.7,213.7 710.8,207.3 721.9,209.2 732.9,211.9 744.0,212.4"/><text x="58.0" y="268" text-anchor="start" fill="#5c564c" font-size="11">07-15</text><text x="401.0" y="268" text-anchor="middle" fill="#5c564c" font-size="11">08-27</text><text x="744.0" y="268" text-anchor="end" fill="#5c564c" font-size="11">10-12</text><text x="58" y="278" fill="#5c564c" font-size="11">Percent below the high</text></svg>
+            <figcaption>
+              <p class="legend">
+                
+                  <span><i style="background: #14532d"></i>Drawdown</span>
+                
+              </p>
+              <p class="note">Y-axis: percent below the high of the last 252 sessions of this sector index. The early band is between 8% and 50%.</p>
+            </figcaption>
+          </figure>
+        
+          <figure class="card plot ">
+            <h2>63-session return versus SPY</h2>
+            <svg viewBox="0 0 760 280" role="img" font-family="IBM Plex Sans, Segoe UI, sans-serif"><title>Materials 63-session return versus SPY</title><line x1="58" y1="244.0" x2="744" y2="244.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="248.0" text-anchor="end" fill="#5c564c" font-size="11">-13.8</text><line x1="58" y1="168.7" x2="744" y2="168.7" stroke="#e4dccb" stroke-width="1"/><text x="50" y="172.7" text-anchor="end" fill="#5c564c" font-size="11">-7.1</text><line x1="58" y1="93.3" x2="744" y2="93.3" stroke="#e4dccb" stroke-width="1"/><text x="50" y="97.3" text-anchor="end" fill="#5c564c" font-size="11">-0.5</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="22.0" text-anchor="end" fill="#5c564c" font-size="11">6.1</text><line x1="58" y1="87.5" x2="744" y2="87.5" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="83.5" text-anchor="end" fill="#9f1239" font-size="11">Even with the ETF</text><polyline fill="none" stroke="#14532d" stroke-width="2" points="58.0,228.4 69.1,194.2 80.1,196.3 91.2,196.6 102.3,212.6 113.3,189.2 124.4,178.7 135.5,165.0 146.5,159.1 157.6,135.3 168.6,124.9 179.7,128.0 190.8,161.3 201.8,154.6 212.9,138.9 224.0,125.8 235.0,139.8 246.1,112.3 257.2,97.0 268.2,107.8 279.3,125.1 290.4,134.9 301.4,107.7 312.5,89.3 323.5,94.0 334.6,57.3 345.7,54.9 356.7,40.6 367.8,33.6 378.9,42.4 389.9,43.5 401.0,56.3 412.1,52.3 423.1,50.2 434.2,73.7 445.3,72.9 456.3,85.7 467.4,91.2 478.5,76.5 489.5,106.1 500.6,106.3 511.6,128.2 522.7,148.2 533.8,128.7 544.8,142.7 555.9,147.4 567.0,144.0 578.0,167.4 589.1,144.5 600.2,147.9 611.2,172.0 622.3,179.2 633.4,136.2 644.4,137.4 655.5,150.5 666.5,183.3 677.6,166.8 688.7,159.1 699.7,133.1 710.8,142.9 721.9,139.8 732.9,139.0 744.0,136.4"/><text x="58.0" y="268" text-anchor="start" fill="#5c564c" font-size="11">07-15</text><text x="401.0" y="268" text-anchor="middle" fill="#5c564c" font-size="11">08-27</text><text x="744.0" y="268" text-anchor="end" fill="#5c564c" font-size="11">10-12</text><text x="58" y="278" fill="#5c564c" font-size="11">Percentage points</text></svg>
+            <figcaption>
+              <p class="legend">
+                
+                  <span><i style="background: #14532d"></i>Sector minus SPY</span>
+                
+              </p>
+              <p class="note">Y-axis: percentage points, sector 63-session return minus the SPY 63-session return. An early turn crosses from zero or below to above zero inside the last 15 sessions.</p>
+            </figcaption>
+          </figure>
+        
+          <figure class="card plot ">
+            <h2>Equal-weight 15-session return</h2>
+            <svg viewBox="0 0 760 280" role="img" font-family="IBM Plex Sans, Segoe UI, sans-serif"><title>Materials equal-weight 15-session return</title><line x1="58" y1="244.0" x2="744" y2="244.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="248.0" text-anchor="end" fill="#5c564c" font-size="11">-7.3</text><line x1="58" y1="168.7" x2="744" y2="168.7" stroke="#e4dccb" stroke-width="1"/><text x="50" y="172.7" text-anchor="end" fill="#5c564c" font-size="11">-1.8</text><line x1="58" y1="93.3" x2="744" y2="93.3" stroke="#e4dccb" stroke-width="1"/><text x="50" y="97.3" text-anchor="end" fill="#5c564c" font-size="11">3.7</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="22.0" text-anchor="end" fill="#5c564c" font-size="11">9.2</text><line x1="58" y1="144.4" x2="744" y2="144.4" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="140.4" text-anchor="end" fill="#9f1239" font-size="11">Flat</text><polyline fill="none" stroke="#14532d" stroke-width="2" points="58.0,150.2 69.1,149.2 80.1,173.6 91.2,183.1 102.3,155.2 113.3,135.6 124.4,150.1 135.5,144.6 146.5,138.1 157.6,100.8 168.6,81.6 179.7,84.9 190.8,123.6 201.8,102.8 212.9,79.4 224.0,64.3 235.0,86.0 246.1,60.3 257.2,34.4 268.2,33.6 279.3,71.7 290.4,64.2 301.4,89.0 312.5,104.5 323.5,142.8 334.6,105.7 345.7,107.4 356.7,57.4 367.8,78.0 378.9,108.9 389.9,120.6 401.0,122.6 412.1,141.1 423.1,163.8 434.2,179.9 445.3,140.5 456.3,143.6 467.4,152.9 478.5,153.6 489.5,159.1 500.6,194.2 511.6,192.1 522.7,228.4 533.8,216.2 544.8,220.0 555.9,212.1 567.0,227.6 578.0,226.2 589.1,194.8 600.2,187.8 611.2,228.1 622.3,217.1 633.4,223.5 644.4,222.8 655.5,217.8 666.5,209.1 677.6,206.3 688.7,185.0 699.7,189.4 710.8,201.8 721.9,204.3 732.9,179.7 744.0,180.5"/><text x="58.0" y="268" text-anchor="start" fill="#5c564c" font-size="11">07-15</text><text x="401.0" y="268" text-anchor="middle" fill="#5c564c" font-size="11">08-27</text><text x="744.0" y="268" text-anchor="end" fill="#5c564c" font-size="11">10-12</text><text x="58" y="278" fill="#5c564c" font-size="11">Percent</text></svg>
+            <figcaption>
+              <p class="legend">
+                
+                  <span><i style="background: #14532d"></i>Equal-weight 15-session return</span>
+                
+              </p>
+              <p class="note">Y-axis: percent. Average 15-session return of the issuers in the sector, each name weighted equally. An early sector needs this above zero.</p>
+            </figcaption>
+          </figure>
+        
+      </div>
+
+      <section class="card">
+        <h2>Early-turn checklist</h2>
+        <p class="note">Every row has to pass on 12 Oct 2026. One failed check keeps the sector out of Early.</p>
+        <table>
+          <thead>
+            <tr><th>Check</th><th>Latest session</th></tr>
+          </thead>
+          <tbody>
+            
+              <tr>
+                <td>At least five issuers</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>Close above the 50-day average</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>50-day cross is 3 to 15 sessions old</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>50-day average is rising versus 10 sessions ago</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>200-day average is available</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>Still under the 200-day, or above it for at most 20 sessions</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>Drawdown from the 252-session high is 8% to 50%</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>Close is at least 5% above the 252-session low</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>63-session return versus the ETF turned positive within 15 sessions</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>Own 63-session return is higher than 15 sessions ago</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>Breadth is between 40% and 70%</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>Breadth rose at least 15 points over 15 sessions</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>Equal-weight 15-session return is positive</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>At least three issuers are up over 15 sessions</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>Largest issuer is under 60% of the 15-session return</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>Membership turnover is at most a quarter of issuers</td>
+                <td>Pass</td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </section>
+    
+  </main>
+</body>
+</html>

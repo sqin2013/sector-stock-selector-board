@@ -11,10 +11,325 @@
 <body>
   <main class="wrap">
     
-      <p class="kicker">Sector charts</p>
-      <h1>Sector index</h1>
-      <p class="lede">The charts need the saved holdings files, the GICS list, and cached prices. Run <code>python -m selector.pipeline</code> from the project root, then open this page again.</p>
-      <p><a href="../index.html">Daily board</a></p>
+      
+      
+      <header>
+        <p class="kicker"><a href="../index.html">Daily board</a> · Sector charts</p>
+        <h1>Information Technology</h1>
+        <p class="lede">The line is the holdings-weighted index of the stocks currently in this GICS sector, built from Yahoo adjusted closes and rebased to 100 at the start of the price history. An early sector has to clear every check on the same session.</p>
+        <p class="note">QQQ holdings 17 Nov 2026, prices through 18 Nov 2026, GICS map unofficial-wikipedia-sp500-2026-11-18. Weights are the current file, drifted by price away from 17 Nov 2026. The plots show the last 63 trading sessions.</p>
+      </header>
+
+      <nav class="pills" aria-label="ETF">
+        
+          <a href="qqq-information-technology.html" class="on">QQQ</a>
+        
+          <a href="spy-information-technology.html" class="">SPY</a>
+        
+      </nav>
+
+      <section class="card">
+        <h2>QQQ on 18 Nov 2026</h2>
+        <div class="scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Sector</th>
+                <th>Stage</th>
+                <th class="num">Issuers</th>
+                <th class="num">50-day cross</th>
+                <th class="num">Failed checks</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td><a href="qqq-energy.html">Energy</a></td>
+                  <td><span class="badge Ineligible">Ineligible</span></td>
+                  <td class="num">2</td>
+                  <td class="num">Below 50-day</td>
+                  <td class="num">11</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="qqq-materials.html">Materials</a></td>
+                  <td><span class="badge Ineligible">Ineligible</span></td>
+                  <td class="num">1</td>
+                  <td class="num">32 sessions</td>
+                  <td class="num">8</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="qqq-industrials.html">Industrials</a></td>
+                  <td><span class="badge Late">Late</span></td>
+                  <td class="num">11</td>
+                  <td class="num">20 sessions</td>
+                  <td class="num">7</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="qqq-consumer-discretionary.html">Consumer Discretionary</a></td>
+                  <td><span class="badge Late">Late</span></td>
+                  <td class="num">9</td>
+                  <td class="num">8 sessions</td>
+                  <td class="num">4</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="qqq-consumer-staples.html">Consumer Staples</a></td>
+                  <td><span class="badge Late">Late</span></td>
+                  <td class="num">6</td>
+                  <td class="num">29 sessions</td>
+                  <td class="num">4</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="qqq-health-care.html">Health Care</a></td>
+                  <td><span class="badge Late">Late</span></td>
+                  <td class="num">8</td>
+                  <td class="num">28 sessions</td>
+                  <td class="num">7</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="qqq-financials.html">Financials</a></td>
+                  <td><span class="badge Ineligible">Ineligible</span></td>
+                  <td class="num">1</td>
+                  <td class="num">16 sessions</td>
+                  <td class="num">9</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="qqq-information-technology.html">Information Technology</a></td>
+                  <td><span class="badge Broken">Broken</span></td>
+                  <td class="num">35</td>
+                  <td class="num">Below 50-day</td>
+                  <td class="num">9</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="qqq-communication-services.html">Communication Services</a></td>
+                  <td><span class="badge Broken">Broken</span></td>
+                  <td class="num">7</td>
+                  <td class="num">Below 50-day</td>
+                  <td class="num">7</td>
+                </tr>
+              
+                <tr>
+                  <td><a href="qqq-utilities.html">Utilities</a></td>
+                  <td><span class="badge Ineligible">Ineligible</span></td>
+                  <td class="num">4</td>
+                  <td class="num">8 sessions</td>
+                  <td class="num">3</td>
+                </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <nav class="pills" aria-label="Sector">
+        
+          <a href="qqq-energy.html" class="">Energy</a>
+        
+          <a href="qqq-materials.html" class="">Materials</a>
+        
+          <a href="qqq-industrials.html" class="">Industrials</a>
+        
+          <a href="qqq-consumer-discretionary.html" class="">Consumer Discretionary</a>
+        
+          <a href="qqq-consumer-staples.html" class="">Consumer Staples</a>
+        
+          <a href="qqq-health-care.html" class="">Health Care</a>
+        
+          <a href="qqq-financials.html" class="">Financials</a>
+        
+          <a href="qqq-information-technology.html" class="on">Information Technology</a>
+        
+          <a href="qqq-communication-services.html" class="">Communication Services</a>
+        
+          <a href="qqq-utilities.html" class="">Utilities</a>
+        
+      </nav>
+
+      <section class="card">
+        <h2>Information Technology in QQQ</h2>
+        <p class="note">35 issuers, 51.9% of QQQ. Stage Broken for 15 sessions.</p>
+        <dl class="facts">
+          <div><dt>Stage</dt><dd><span class="badge Broken">Broken</span></dd></div>
+          <div><dt>50-day cross</dt><dd>Below the average</dd></div>
+          <div><dt>Failed checks</dt><dd>9 of 16</dd></div>
+          <div><dt>Parent weight</dt><dd>51.9%</dd></div>
+        </dl>
+      </section>
+
+      <div class="charts">
+        
+          <figure class="card plot wide">
+            <h2>Index level versus the 50-day and 200-day averages</h2>
+            <svg viewBox="0 0 760 280" role="img" font-family="IBM Plex Sans, Segoe UI, sans-serif"><title>Information Technology index, 50-day average, and 200-day average</title><line x1="58" y1="244.0" x2="744" y2="244.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="248.0" text-anchor="end" fill="#5c564c" font-size="11">198</text><line x1="58" y1="168.7" x2="744" y2="168.7" stroke="#e4dccb" stroke-width="1"/><text x="50" y="172.7" text-anchor="end" fill="#5c564c" font-size="11">224</text><line x1="58" y1="93.3" x2="744" y2="93.3" stroke="#e4dccb" stroke-width="1"/><text x="50" y="97.3" text-anchor="end" fill="#5c564c" font-size="11">251</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="22.0" text-anchor="end" fill="#5c564c" font-size="11">277</text><polyline fill="none" stroke="#14532d" stroke-width="2" points="58.0,112.2 69.1,126.4 80.1,119.4 91.2,116.1 102.3,95.4 113.3,107.4 124.4,103.3 135.5,114.5 146.5,114.9 157.6,107.9 168.6,99.6 179.7,96.3 190.8,94.8 201.8,106.0 212.9,99.9 224.0,113.5 235.0,114.8 246.1,113.3 257.2,95.6 268.2,85.4 279.3,61.8 290.4,53.3 301.4,57.1 312.5,57.3 323.5,52.0 334.6,59.3 345.7,58.5 356.7,53.2 367.8,45.7 378.9,39.3 389.9,35.4 401.0,33.6 412.1,34.7 423.1,50.9 434.2,48.7 445.3,60.1 456.3,62.2 467.4,84.6 478.5,89.7 489.5,114.1 500.6,104.0 511.6,107.1 522.7,94.7 533.8,122.1 544.8,116.8 555.9,103.4 567.0,89.6 578.0,82.4 589.1,91.5 600.2,130.7 611.2,153.4 622.3,144.5 633.4,147.0 644.4,206.9 655.5,195.0 666.5,169.2 677.6,175.9 688.7,152.7 699.7,154.6 710.8,170.0 721.9,192.6 732.9,196.4 744.0,196.0"/><polyline fill="none" stroke="#92400e" stroke-width="2" points="58.0,108.4 69.1,108.7 80.1,109.0 91.2,109.9 102.3,109.8 113.3,110.0 124.4,110.7 135.5,111.7 146.5,112.0 157.6,112.1 168.6,112.2 179.7,112.0 190.8,112.1 201.8,112.8 212.9,112.9 224.0,112.9 235.0,113.1 246.1,112.8 257.2,112.4 268.2,112.1 279.3,111.4 290.4,110.2 301.4,109.3 312.5,108.3 323.5,106.8 334.6,105.3 345.7,103.8 356.7,102.6 367.8,101.3 378.9,99.8 389.9,97.9 401.0,95.7 412.1,93.2 423.1,90.7 434.2,88.9 445.3,87.2 456.3,85.8 467.4,85.5 478.5,85.2 489.5,85.4 500.6,85.6 511.6,85.6 522.7,85.4 533.8,85.9 544.8,86.6 555.9,86.9 567.0,87.0 578.0,86.6 589.1,86.2 600.2,86.6 611.2,87.4 622.3,87.8 633.4,88.3 644.4,90.2 655.5,92.2 666.5,93.4 677.6,94.8 688.7,95.6 699.7,96.4 710.8,97.6 721.9,99.5 732.9,101.5 744.0,103.5"/><polyline fill="none" stroke="#5c564c" stroke-width="2" points="58.0,228.4 69.1,227.5 80.1,226.6 91.2,225.7 102.3,224.6 113.3,223.7 124.4,222.7 135.5,221.8 146.5,220.8 157.6,219.8 168.6,218.7 179.7,217.6 190.8,216.5 201.8,215.3 212.9,214.2 224.0,213.1 235.0,212.1 246.1,211.1 257.2,210.0 268.2,208.9 279.3,207.7 290.4,206.4 301.4,205.2 312.5,204.0 323.5,202.8 334.6,201.6 345.7,200.4 356.7,199.2 367.8,197.9 378.9,196.5 389.9,195.1 401.0,193.7 412.1,192.2 423.1,191.0 434.2,189.7 445.3,188.5 456.3,187.3 467.4,186.2 478.5,185.2 489.5,184.2 500.6,183.2 511.6,182.2 522.7,181.2 533.8,180.3 544.8,179.4 555.9,178.4 567.0,177.4 578.0,176.3 589.1,175.3 600.2,174.5 611.2,173.8 622.3,173.0 633.4,172.2 644.4,171.7 655.5,171.2 666.5,170.6 677.6,170.0 688.7,169.3 699.7,168.7 710.8,168.1 721.9,167.6 732.9,167.1 744.0,166.6"/><text x="58.0" y="268" text-anchor="start" fill="#5c564c" font-size="11">08-21</text><text x="401.0" y="268" text-anchor="middle" fill="#5c564c" font-size="11">10-06</text><text x="744.0" y="268" text-anchor="end" fill="#5c564c" font-size="11">11-18</text><text x="58" y="278" fill="#5c564c" font-size="11">Index points</text></svg>
+            <figcaption>
+              <p class="legend">
+                
+                  <span><i style="background: #14532d"></i>Sector index</span>
+                
+                  <span><i style="background: #92400e"></i>50-day average</span>
+                
+                  <span><i style="background: #5c564c"></i>200-day average</span>
+                
+              </p>
+              <p class="note">Y-axis: index points, rebased to 100 at the first session of the full history. X-axis: trading session in 2026, 08-21 to 11-18. An early reading needs the index above the 50-day, that cross 3 to 15 sessions old, and the index still under the 200-day or above it for at most 20 sessions.</p>
+            </figcaption>
+          </figure>
+        
+          <figure class="card plot ">
+            <h2>Breadth, share of issuers above their 50-day</h2>
+            <svg viewBox="0 0 760 280" role="img" font-family="IBM Plex Sans, Segoe UI, sans-serif"><title>Information Technology breadth</title><line x1="58" y1="244.0" x2="744" y2="244.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="248.0" text-anchor="end" fill="#5c564c" font-size="11">0</text><line x1="58" y1="168.7" x2="744" y2="168.7" stroke="#e4dccb" stroke-width="1"/><text x="50" y="172.7" text-anchor="end" fill="#5c564c" font-size="11">33.3</text><line x1="58" y1="93.3" x2="744" y2="93.3" stroke="#e4dccb" stroke-width="1"/><text x="50" y="97.3" text-anchor="end" fill="#5c564c" font-size="11">66.7</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="22.0" text-anchor="end" fill="#5c564c" font-size="11">100</text><line x1="58" y1="153.6" x2="744" y2="153.6" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="149.6" text-anchor="end" fill="#9f1239" font-size="11">40% floor</text><line x1="58" y1="85.8" x2="744" y2="85.8" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="81.8" text-anchor="end" fill="#9f1239" font-size="11">70% cap</text><polyline fill="none" stroke="#14532d" stroke-width="2" points="58.0,166.5 69.1,173.0 80.1,173.0 91.2,166.5 102.3,147.1 113.3,153.6 124.4,147.1 135.5,160.1 146.5,160.1 157.6,160.1 168.6,153.6 179.7,127.8 190.8,140.7 201.8,140.7 212.9,134.2 224.0,153.6 235.0,147.1 246.1,147.1 257.2,147.1 268.2,127.8 279.3,114.9 290.4,101.9 301.4,95.5 312.5,95.5 323.5,76.1 334.6,69.7 345.7,63.2 356.7,63.2 367.8,63.2 378.9,63.2 389.9,56.7 401.0,63.2 412.1,56.7 423.1,69.7 434.2,82.6 445.3,95.5 456.3,127.8 467.4,153.6 478.5,134.2 489.5,185.9 500.6,160.1 511.6,134.2 522.7,121.3 533.8,153.6 544.8,140.7 555.9,114.9 567.0,108.4 578.0,101.9 589.1,127.8 600.2,160.1 611.2,166.5 622.3,160.1 633.4,173.0 644.4,192.3 655.5,192.3 666.5,173.0 677.6,173.0 688.7,166.5 699.7,160.1 710.8,160.1 721.9,185.9 732.9,198.8 744.0,198.8"/><polyline fill="none" stroke="#5c564c" stroke-width="2" points="58.0,179.4 69.1,173.0 80.1,134.2 91.2,134.2 102.3,140.7 113.3,147.1 124.4,153.6 135.5,153.6 146.5,140.7 157.6,140.7 168.6,121.3 179.7,121.3 190.8,147.1 201.8,160.1 212.9,160.1 224.0,166.5 235.0,173.0 246.1,173.0 257.2,166.5 268.2,147.1 279.3,153.6 290.4,147.1 301.4,160.1 312.5,160.1 323.5,160.1 334.6,153.6 345.7,127.8 356.7,140.7 367.8,140.7 378.9,134.2 389.9,153.6 401.0,147.1 412.1,147.1 423.1,147.1 434.2,127.8 445.3,114.9 456.3,101.9 467.4,95.5 478.5,95.5 489.5,76.1 500.6,69.7 511.6,63.2 522.7,63.2 533.8,63.2 544.8,63.2 555.9,56.7 567.0,63.2 578.0,56.7 589.1,69.7 600.2,82.6 611.2,95.5 622.3,127.8 633.4,153.6 644.4,134.2 655.5,185.9 666.5,160.1 677.6,134.2 688.7,121.3 699.7,153.6 710.8,140.7 721.9,114.9 732.9,108.4 744.0,101.9"/><text x="58.0" y="268" text-anchor="start" fill="#5c564c" font-size="11">08-21</text><text x="401.0" y="268" text-anchor="middle" fill="#5c564c" font-size="11">10-06</text><text x="744.0" y="268" text-anchor="end" fill="#5c564c" font-size="11">11-18</text><text x="58" y="278" fill="#5c564c" font-size="11">Percent of issuers</text></svg>
+            <figcaption>
+              <p class="legend">
+                
+                  <span><i style="background: #14532d"></i>Breadth</span>
+                
+                  <span><i style="background: #5c564c"></i>Breadth 15 sessions earlier</span>
+                
+              </p>
+              <p class="note">Y-axis: percent of issuers with a price above their own 50-day average. Early breadth sits between 40% and 70% and is at least 15 points above the lagged line.</p>
+            </figcaption>
+          </figure>
+        
+          <figure class="card plot ">
+            <h2>Drawdown from the 252-session high</h2>
+            <svg viewBox="0 0 760 280" role="img" font-family="IBM Plex Sans, Segoe UI, sans-serif"><title>Information Technology drawdown</title><line x1="58" y1="244.0" x2="744" y2="244.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="248.0" text-anchor="end" fill="#5c564c" font-size="11">0</text><line x1="58" y1="168.7" x2="744" y2="168.7" stroke="#e4dccb" stroke-width="1"/><text x="50" y="172.7" text-anchor="end" fill="#5c564c" font-size="11">16.7</text><line x1="58" y1="93.3" x2="744" y2="93.3" stroke="#e4dccb" stroke-width="1"/><text x="50" y="97.3" text-anchor="end" fill="#5c564c" font-size="11">33.3</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="22.0" text-anchor="end" fill="#5c564c" font-size="11">50</text><line x1="58" y1="207.8" x2="744" y2="207.8" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="203.8" text-anchor="end" fill="#9f1239" font-size="11">8% floor</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="14.0" text-anchor="end" fill="#9f1239" font-size="11">50% cap</text><polyline fill="none" stroke="#14532d" stroke-width="2" points="58.0,213.6 69.1,204.9 80.1,209.2 91.2,211.2 102.3,223.8 113.3,216.5 124.4,219.0 135.5,212.2 146.5,212.0 157.6,216.2 168.6,221.3 179.7,223.3 190.8,224.2 201.8,217.4 212.9,221.1 224.0,212.8 235.0,212.0 246.1,213.0 257.2,223.7 268.2,229.9 279.3,244.0 290.4,244.0 301.4,241.7 312.5,241.6 323.5,244.0 334.6,239.6 345.7,240.1 356.7,243.3 367.8,244.0 378.9,244.0 389.9,244.0 401.0,244.0 412.1,243.3 423.1,233.8 434.2,235.1 445.3,228.5 456.3,227.2 467.4,214.1 478.5,211.1 489.5,196.8 500.6,202.7 511.6,200.9 522.7,208.2 533.8,192.1 544.8,195.2 555.9,203.1 567.0,211.2 578.0,215.4 589.1,210.1 600.2,187.1 611.2,173.7 622.3,179.0 633.4,177.5 644.4,142.4 655.5,149.4 666.5,164.5 677.6,160.6 688.7,174.2 699.7,173.0 710.8,164.0 721.9,150.8 732.9,148.5 744.0,148.8"/><text x="58.0" y="268" text-anchor="start" fill="#5c564c" font-size="11">08-21</text><text x="401.0" y="268" text-anchor="middle" fill="#5c564c" font-size="11">10-06</text><text x="744.0" y="268" text-anchor="end" fill="#5c564c" font-size="11">11-18</text><text x="58" y="278" fill="#5c564c" font-size="11">Percent below the high</text></svg>
+            <figcaption>
+              <p class="legend">
+                
+                  <span><i style="background: #14532d"></i>Drawdown</span>
+                
+              </p>
+              <p class="note">Y-axis: percent below the high of the last 252 sessions of this sector index. The early band is between 8% and 50%.</p>
+            </figcaption>
+          </figure>
+        
+          <figure class="card plot ">
+            <h2>63-session return versus QQQ</h2>
+            <svg viewBox="0 0 760 280" role="img" font-family="IBM Plex Sans, Segoe UI, sans-serif"><title>Information Technology 63-session return versus QQQ</title><line x1="58" y1="244.0" x2="744" y2="244.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="248.0" text-anchor="end" fill="#5c564c" font-size="11">-6.3</text><line x1="58" y1="168.7" x2="744" y2="168.7" stroke="#e4dccb" stroke-width="1"/><text x="50" y="172.7" text-anchor="end" fill="#5c564c" font-size="11">-1.7</text><line x1="58" y1="93.3" x2="744" y2="93.3" stroke="#e4dccb" stroke-width="1"/><text x="50" y="97.3" text-anchor="end" fill="#5c564c" font-size="11">2.9</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="22.0" text-anchor="end" fill="#5c564c" font-size="11">7.5</text><line x1="58" y1="141.2" x2="744" y2="141.2" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="137.2" text-anchor="end" fill="#9f1239" font-size="11">Even with the ETF</text><polyline fill="none" stroke="#14532d" stroke-width="2" points="58.0,83.5 69.1,108.7 80.1,123.8 91.2,109.4 102.3,88.4 113.3,123.2 124.4,137.8 135.5,162.8 146.5,166.3 157.6,151.2 168.6,91.0 179.7,105.0 190.8,84.2 201.8,85.6 212.9,112.8 224.0,137.0 235.0,147.0 246.1,122.0 257.2,127.3 268.2,136.5 279.3,149.7 290.4,110.7 301.4,99.6 312.5,122.8 323.5,98.3 334.6,98.6 345.7,121.5 356.7,78.3 367.8,43.8 378.9,49.9 389.9,33.6 401.0,57.3 412.1,71.4 423.1,88.2 434.2,76.1 445.3,110.5 456.3,90.4 467.4,91.9 478.5,107.9 489.5,127.5 500.6,151.3 511.6,161.8 522.7,168.5 533.8,169.7 544.8,137.8 555.9,92.1 567.0,53.6 578.0,107.8 589.1,81.8 600.2,113.1 611.2,173.8 622.3,165.3 633.4,187.8 644.4,225.2 655.5,207.1 666.5,204.1 677.6,218.8 688.7,201.9 699.7,202.9 710.8,228.4 721.9,225.3 732.9,208.1 744.0,222.1"/><text x="58.0" y="268" text-anchor="start" fill="#5c564c" font-size="11">08-21</text><text x="401.0" y="268" text-anchor="middle" fill="#5c564c" font-size="11">10-06</text><text x="744.0" y="268" text-anchor="end" fill="#5c564c" font-size="11">11-18</text><text x="58" y="278" fill="#5c564c" font-size="11">Percentage points</text></svg>
+            <figcaption>
+              <p class="legend">
+                
+                  <span><i style="background: #14532d"></i>Sector minus QQQ</span>
+                
+              </p>
+              <p class="note">Y-axis: percentage points, sector 63-session return minus the QQQ 63-session return. An early turn crosses from zero or below to above zero inside the last 15 sessions.</p>
+            </figcaption>
+          </figure>
+        
+          <figure class="card plot ">
+            <h2>Equal-weight 15-session return</h2>
+            <svg viewBox="0 0 760 280" role="img" font-family="IBM Plex Sans, Segoe UI, sans-serif"><title>Information Technology equal-weight 15-session return</title><line x1="58" y1="244.0" x2="744" y2="244.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="248.0" text-anchor="end" fill="#5c564c" font-size="11">-18.8</text><line x1="58" y1="168.7" x2="744" y2="168.7" stroke="#e4dccb" stroke-width="1"/><text x="50" y="172.7" text-anchor="end" fill="#5c564c" font-size="11">-7.4</text><line x1="58" y1="93.3" x2="744" y2="93.3" stroke="#e4dccb" stroke-width="1"/><text x="50" y="97.3" text-anchor="end" fill="#5c564c" font-size="11">4.1</text><line x1="58" y1="18.0" x2="744" y2="18.0" stroke="#e4dccb" stroke-width="1"/><text x="50" y="22.0" text-anchor="end" fill="#5c564c" font-size="11">15.5</text><line x1="58" y1="120.1" x2="744" y2="120.1" stroke="#9f1239" stroke-width="1" stroke-dasharray="4 4"/><text x="740" y="116.1" text-anchor="end" fill="#9f1239" font-size="11">Flat</text><polyline fill="none" stroke="#14532d" stroke-width="2" points="58.0,85.2 69.1,106.8 80.1,139.3 91.2,125.0 102.3,95.5 113.3,123.1 124.4,116.9 135.5,135.0 146.5,148.0 157.6,156.7 168.6,152.4 179.7,151.3 190.8,130.3 201.8,130.8 212.9,124.9 224.0,136.1 235.0,125.5 246.1,129.3 257.2,121.7 268.2,133.5 279.3,97.4 290.4,92.0 301.4,73.0 312.5,69.7 323.5,68.6 334.6,83.0 345.7,83.9 356.7,80.2 367.8,55.7 378.9,56.9 389.9,38.1 401.0,33.6 412.1,43.5 423.1,69.5 434.2,72.9 445.3,108.5 456.3,120.7 467.4,141.9 478.5,139.7 489.5,168.8 500.6,153.2 511.6,153.7 522.7,148.3 533.8,179.0 544.8,179.3 555.9,171.6 567.0,161.3 578.0,149.1 589.1,148.1 600.2,184.2 611.2,190.6 622.3,180.4 633.4,171.2 644.4,228.4 655.5,201.4 666.5,180.3 677.6,184.8 688.7,171.6 699.7,151.3 710.8,169.4 721.9,204.7 732.9,222.2 744.0,228.4"/><text x="58.0" y="268" text-anchor="start" fill="#5c564c" font-size="11">08-21</text><text x="401.0" y="268" text-anchor="middle" fill="#5c564c" font-size="11">10-06</text><text x="744.0" y="268" text-anchor="end" fill="#5c564c" font-size="11">11-18</text><text x="58" y="278" fill="#5c564c" font-size="11">Percent</text></svg>
+            <figcaption>
+              <p class="legend">
+                
+                  <span><i style="background: #14532d"></i>Equal-weight 15-session return</span>
+                
+              </p>
+              <p class="note">Y-axis: percent. Average 15-session return of the issuers in the sector, each name weighted equally. An early sector needs this above zero.</p>
+            </figcaption>
+          </figure>
+        
+      </div>
+
+      <section class="card">
+        <h2>Early-turn checklist</h2>
+        <p class="note">Every row has to pass on 18 Nov 2026. One failed check keeps the sector out of Early.</p>
+        <table>
+          <thead>
+            <tr><th>Check</th><th>Latest session</th></tr>
+          </thead>
+          <tbody>
+            
+              <tr>
+                <td>At least five issuers</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>Close above the 50-day average</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>50-day cross is 3 to 15 sessions old</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>50-day average is rising versus 10 sessions ago</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>200-day average is available</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>Still under the 200-day, or above it for at most 20 sessions</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>Drawdown from the 252-session high is 8% to 50%</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>Close is at least 5% above the 252-session low</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>63-session return versus the ETF turned positive within 15 sessions</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>Own 63-session return is higher than 15 sessions ago</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>Breadth is between 40% and 70%</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>Breadth rose at least 15 points over 15 sessions</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>Equal-weight 15-session return is positive</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>At least three issuers are up over 15 sessions</td>
+                <td>Pass</td>
+              </tr>
+            
+              <tr>
+                <td>Largest issuer is under 60% of the 15-session return</td>
+                <td>Fail</td>
+              </tr>
+            
+              <tr>
+                <td>Membership turnover is at most a quarter of issuers</td>
+                <td>Pass</td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </section>
     
   </main>
 </body>
